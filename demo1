@@ -1,0 +1,7 @@
+from random import *
+for i in range(10):
+    print(randint(0,9),randint(0,9),randint(0,9),randint(0,9),randint(0,9),sep='')
+_namE_="mrhdh"
+print(_namE_)
+a=100000000000000000000000000000000000000000
+print(type(a))

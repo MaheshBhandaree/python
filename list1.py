@@ -1,0 +1,27 @@
+l=[0,1,2,2,3,3,3,4,5,6,666,7,88,6,2]
+l1=[-1,-2,-3,-4,-5]
+n=int(input("Enter the elenment to find:"))
+if l.count(n)>0:
+    print(n,"is present at {} index".format(l.index(n)))
+else:
+    print("Entered Element is not Available")
+print()
+l.insert(20,200)
+print(l)
+l.insert(100,2000)
+print(l)
+l.insert(-20,100)
+print(l)
+l.append(1001)
+print(l)
+l.extend(l1)
+print(l)
+l.remove(2)
+print(l)
+print()
+l.pop()
+print(l)
+l.pop(590)
+print(l)
+l.reverse()
+print(l)

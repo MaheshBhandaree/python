@@ -1,0 +1,11 @@
+l=[10,20,30,40]
+l1=["cat","tom","dog","Elephant"]
+l.pop()
+l.reverse()
+print(l)
+l.sort()
+print(l)
+l1.sort()
+print(l1)
+l1.sort(reverse=True)
+print(l1)
